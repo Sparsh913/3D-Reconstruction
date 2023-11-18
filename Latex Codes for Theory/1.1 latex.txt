@@ -1,0 +1,18 @@
+\tilde{p_l} = \tilde{p_r} = \begin{bmatrix}
+0\\
+0\\
+1\end{bmatrix} \newline
+\text{We know that, }\ \ \tilde{p_r}^TF \ \tilde{p_l} = 0 \newline
+\begin{bmatrix} 0 & 0 & 1\end{bmatrix} \begin{bmatrix}
+f_{11} & f_{12} & f_{13}\\
+f_{21} & f_{22} & f_{23}\\
+f_{31} & f_{32} & f_{33}
+\end{bmatrix} \begin{bmatrix}
+0\\
+0\\
+1\end{bmatrix} = 0 \newline \newline
+\Rightarrow \begin{bmatrix} f_{31} & f_{32} & f_{33}\end{bmatrix}\begin{bmatrix}
+0\\
+0\\
+1\end{bmatrix} = 0 \newline
+\Rightarrow f_{33} = 0

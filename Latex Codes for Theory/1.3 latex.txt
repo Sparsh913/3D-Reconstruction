@@ -1,0 +1,4 @@
+\text{At timestamp t1, }\\ p_1 = KR_1P + KT_1\\\Rightarrow P = R_1^{-1}K^{-1}p_1 - R_1^{-1}T_1\\
+\text{At timestamp t2, }\\ p_2 = KR_2P + KT_2\\\Rightarrow p_2 = (KR_2R_1^TK^{-1})p_1 + (-KR_2R_1^TT_1 + KT_2)\\\Rightarrow R_{rel} = KR_2R_1^TK^{-1}\\T_{rel} = -KR_2R_1^TT_1 + KT_2\\
+E = [T_{rel\ \times}]R_{rel}\\
+F = (K^{-1})^TEK^{-1}\\\Rightarrow F = (K^{-1})^T[T_{rel\ \times}]R_{rel}K^{-1}

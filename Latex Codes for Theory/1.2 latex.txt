@@ -1,0 +1,35 @@
+p_l = \begin{bmatrix}
+u_l & v_l & 1 \end{bmatrix}\\ p_r = \begin{bmatrix}
+u_r & v_r & 1 \end{bmatrix}\\
+t = \begin{bmatrix} t_1\\
+0\\
+0
+\end{bmatrix} \\
+R = I_{3x3} \\
+\text{Essential Matrix, } E = [t_{\times}] R\\
+\Rightarrow E = \begin{bmatrix}
+0 & 0 & 0\\
+0 & 0 & -t_1\\
+0 & t_1 & 0
+\end{bmatrix} \begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1
+\end{bmatrix}\\
+\Rightarrow E = \begin{bmatrix}
+0 & 0 & 0\\
+0 & 0 & -t_1\\
+0 & t_1 & 0
+\end{bmatrix}\\
+\text{We know that epipolar line, } l_l = p_r^TE\\
+\Rightarrow \begin{bmatrix}
+u_r & v_r & 1 \end{bmatrix} \begin{bmatrix}
+0 & 0 & 0\\
+0 & 0 & -t_1\\
+0 & t_1 & 0
+\end{bmatrix}\\
+\Rightarrow l_l = \begin{bmatrix}
+0 & t_1 & -v_rt_1 \end{bmatrix}\\
+\Rightarrow \text{Epipolar line in the Left Camera is, } y = v_r \ \ \ \ \ \ \ \  \ \ \ ...1\\
+\text{Similarly, Epipolar line in the Right Camera is, } y = v_l \ \ \ \ \ \  ...2\\
+\text{From Equations, 1 & 2, the two cameras have epipolar lines parallel to the X-axis}

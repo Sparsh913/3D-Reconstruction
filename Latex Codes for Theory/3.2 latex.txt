@@ -1,0 +1,10 @@
+\text{Consider pts1 corresponding to left and pts2 corresponding to right image}\\
+A_i=\begin{bmatrix}
+y_{l i} m_{l 3}^T-m_{l 2}^T \\
+m_{l 1}^T-x_{l i} m_{l 3}^T \\
+y_{r i} m_{r 3}^T-m_{r 2}^T \\
+m_{r 1}^T-x_{r i} m_{r 3}^T
+\end{bmatrix} \\
+
+
+\text{Where $m_{l i}$ and $m_{r i}$ are rows in left and right camera projection matrices respectively}
